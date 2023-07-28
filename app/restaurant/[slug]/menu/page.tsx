@@ -28,7 +28,6 @@ export default async function RestaurantMenu({ params }: { params: { slug: strin
 
   const menu = await fetchRestaurantMenu(params.slug)
 
-  console.log({ menu })
 
   return (
     <>
