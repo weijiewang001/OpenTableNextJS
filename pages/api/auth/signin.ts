@@ -11,7 +11,6 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  // console.log("SIGN IN REQUEST")
   if (req.method === "POST") {
     const errors: string[] = []
     const { email, password } = req.body;
